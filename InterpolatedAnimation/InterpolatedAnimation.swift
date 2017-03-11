@@ -182,10 +182,6 @@ import UIKit
 
   private func moveToPercent(_ percent: Double) {
     let percent = interpolationCurve.curveFunction(percent)
-    // It's important that we update parents before children
-    // Otherwise children's layout would be invalidated by parent's frame upate
-    var alreadyLaidOut = Set<UIView>()
-    
     view?.forEachSubview { view in
       viewMapping[view]?.move(view: view, to: percent)
     }
