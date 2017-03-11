@@ -1,0 +1,23 @@
+{
+  "name": "InterpolatedAnimation",
+  "version": "0.0.1",
+  "summary": "A short description of InterpolatedAnimation.",
+  "description": "I have the best descriptions, nobody is better at descriptions than me",
+  "homepage": "http://EXAMPLE/InterpolatedAnimation",
+  "license": "MIT",
+  "authors": {
+    "Maxim Rabiciuc": "mrabiciu@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/mrabiciu/InterpolatedAnimation.git"
+  },
+  "source_files": [
+    "InterpolatedAnimation/*.swift",
+    "InterpolatedAnimation/*.h"
+  ],
+  "public_header_files": "InterpolatedAnimation/*.h",
+  "requires_arc": true
+}

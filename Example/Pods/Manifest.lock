@@ -1,0 +1,16 @@
+PODS:
+  - InterpolatedAnimation (0.0.1)
+
+DEPENDENCIES:
+  - InterpolatedAnimation (from `~/workspace/animation/InterpolatedAnimation`)
+
+EXTERNAL SOURCES:
+  InterpolatedAnimation:
+    :path: ~/workspace/animation/InterpolatedAnimation
+
+SPEC CHECKSUMS:
+  InterpolatedAnimation: 85427fa54e8ba53724ff49dc2a8d4bba149cc830
+
+PODFILE CHECKSUM: 5872da17df4519199f124af78fe14181ddc604eb
+
+COCOAPODS: 1.2.0
