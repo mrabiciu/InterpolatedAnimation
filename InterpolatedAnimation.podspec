@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.author       = { "Max Rabiciuc" => "mrabiciu@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.source = { :git => 'https://github.com/mrabiciu/InterpolatedAnimation.git' }
+  s.source = { :git => 'https://github.com/mrabiciu/InterpolatedAnimation.git', :tag => 'v0.1.0' }
   s.source_files  = 'InterpolatedAnimation/*.swift', 'InterpolatedAnimation/*.h'
   s.public_header_files = 'InterpolatedAnimation/*.h'
   s.requires_arc = true
